@@ -21,12 +21,42 @@
 # Basics Of Shell
   * Shebang
 
-            #/!/bin/bash
+        #!/bin/bash
     Here # -> Sharp ; ! -> Bang ::->> SharpBang -->> She-bang
     - All .sh files in our Machine are bash files
+    - To see the location of bash file
 
+          cd /bin
+          ls | grep "bash"
+     
 # Variables in bash
+  * How to define a variable in bash?
+      ex.: VAR=HEllo
+
+        #/!/bin/bash
+        # Varibales
+        VAR=This is Siddhesh
+        echo  $VAR
+        VAR=Hello
+        echo  $VAR
+
 # Strings in bash
+  * Bash String is a data type such as an integer or floating point unit. It is used to represent text rather than numbers. It is a combination of set of characters that may also contain numbers.
+  * How to define a string in bash?
+  * STR="Hello this is siddhesh"
+  * For Example:- make one .sh file 
+
+        #/!/bin/bash
+        # String
+        STR="Hello this is Siddhesh's GitHub"
+        echo ${STR}
+        # And if you want to change any word such as Siddhesh's to siddheshkachkure so do the following in bash
+        # echo ${STR/Sidddhesh's/siddheshkachkure}
+        # If we want ro slice some part from the string
+        echo ${STR::5}
+        # If we want to give range
+        echo ${STR::14:31}
+
 # Arrays in bash
 # Arithmetic Calculations in Bash
 # Arguments in Bash
