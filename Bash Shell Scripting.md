@@ -1,4 +1,5 @@
-# Introduction
+# Bash Shell Scripting
+## Introduction
   * What is Shell Scripting?
 
     Shell Scripting is the process of writing and executing scripts in a shell (command-line interpreter) to automate tasks.
@@ -18,8 +19,8 @@
     9. Task scheduling
     10. Interactive user interfaces
   
-# Basics Of Shell
-  * Shebang.
+## Basics Of Shell
+  * Shebang
 
         #!/bin/bash
     Here # -> Sharp ; ! -> Bang ::->> SharpBang -->> She-bang
@@ -29,7 +30,7 @@
           cd /bin
           ls | grep "bash"
      
-# Variables in bash
+## Variables in bash
   * How to define a variable in bash?
       ex.: VAR=HEllo
 
@@ -40,7 +41,7 @@
         VAR=Hello
         echo  $VAR
 
-# Strings in bash
+## Strings in bash
   * Bash String is a data type such as an integer or floating point unit. It is used to represent text rather than numbers. It is a combination of set of characters that may also contain numbers.
   * How to define a string in bash?
   * STR="Hello this is siddhesh"
@@ -54,16 +55,16 @@
         # echo ${STR/Sidddhesh's/siddheshkachkure}
         # If we want ro slice some part from the string
         echo ${STR::5}
-        # If we want to give range
+        # If we want to give range.
         echo ${STR::14:31}
 
-# Arrays in bash
-# Arithmetic Calculations in Bash
-# Arguments in Bash
-# Exit Status in bash
-# If-Else statememnts
-# While loop in bash
-# For Loop in bash
-# Case Statememts in bash
-# Functions in bash
-# Colors in bash
+## Arrays in bash
+## Arithmetic Calculations in Bash
+## Arguments in Bash
+## Exit Status in bash
+## If-Else statememnts
+## While loop in bash
+## For Loop in bash
+## Case Statememts in bash
+## Functions in bash
+## Colors in bash
