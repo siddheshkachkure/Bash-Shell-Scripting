@@ -19,7 +19,7 @@
     10. Interactive user interfaces
   
 # Basics Of Shell
-  * Shebang
+  * Shebang.
 
         #!/bin/bash
     Here # -> Sharp ; ! -> Bang ::->> SharpBang -->> She-bang
